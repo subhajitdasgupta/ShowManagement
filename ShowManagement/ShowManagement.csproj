@@ -191,9 +191,15 @@
     <Compile Include="Migrations\202308021105076_initialMigration.designer.cs">
       <DependentUpon>202308021105076_initialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202308021118432_GigGenreTable.cs" />
+    <Compile Include="Migrations\202308021118432_GigGenreTable.designer.cs">
+      <DependentUpon>202308021118432_GigGenreTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -304,6 +310,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202308021105076_initialMigration.resx">
       <DependentUpon>202308021105076_initialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308021118432_GigGenreTable.resx">
+      <DependentUpon>202308021118432_GigGenreTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
